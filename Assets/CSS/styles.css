@@ -63,3 +63,15 @@
   .col {
     margin: 20px;
   }
+
+  .col-6 {
+    height: 600px;
+  }
+
+  .header {
+    justify-content: flex-end;
+  }
+
+  .title {
+    justify-content: flex-end;
+  }

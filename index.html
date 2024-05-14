@@ -12,20 +12,22 @@
 </head>
 
 <body>
-    <header class="container row alighn-items-end col-12">
-        <h1>Personal Blog</h1>
-        <div class = dark-mode id = dark>
+    <header class="container row header col-12">
+        <div class = "dark-mode title" id = dark>
             <p>DARK MODE</p>
         </div>
         <label class="switch col-2">
             <input type="checkbox" id="switcher">
             <span class="slider round"></span>
-        </label>        
+        </label> 
+        <div class = "light-mode title" id =light>
+          <p>LIGHT MODE</p>
+        </div>       
     </header>
 
         <div class="row">
-          <div class="col-6 container">
-            <h3>Skills Form</h3>
+          <div class="col-6 container ">
+            <h3>MY PERSONAL BLOG</h3>
             <!-- <form id="skills-form">
               <div class="row py-3">
                 <label for="skill" class="col-sm-4 col-form-label"
@@ -56,6 +58,18 @@
           <div class="col-6 container">
             <h3>List of Skills:</h3>
             <ul class="list-group" id="skills-list"></ul>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"></span>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Title" aria-label="Title" aria-describedby="basic-addon2">
+              <span class="input-group-text" id="basic-addon2"></span>
+            </div>
+            <div class="content">
+              <span class="Content"></span>
+              <textarea class="form-control" placeholder="Content" aria-label="Content"></textarea>
+            </div>
             <div class="py-3">
                 <button type="submit" value="Submit" class="btn btn-info">
                   Submit
