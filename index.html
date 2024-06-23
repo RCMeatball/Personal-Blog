@@ -3,80 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="Description" content="Enter your description here" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/form.css"
+  <link rel="stylesheet" href="./assets/css/styles.css">
   <title>Personal Blog!</title>
 </head>
 
 <body>
-    <header class="row header col-12">
-        <div class = "dark-mode title" id = dark>
-            <p>DARK MODE</p>
-        </div>
-        <label class="switch col-2">
-            <input type="checkbox" id="switcher">
-            <span class="slider round"></span>
-        </label> 
-        <div class = "light-mode title" id =light>
-          <p>LIGHT MODE</p>
-        </div>       
-    </header>
+  <button id="button"></button>
+  <h1 id="title">My Personal Blog!</h1>
+  <script src="./Assets/JS/form.js"></script>
 
-        <div class="row">
-          <div class="col-6 container card ">
-            <h3>MY PERSONAL BLOG</h3>
-            <!-- <form id="skills-form">
-              <div class="row py-3">
-                <label for="skill" class="col-sm-4 col-form-label"
-                  >Skill Name:
-                </label>
-                <div class="col-sm-8">
-                  <input type="text" class="form-control" id="skill-name" />
-                </div>
-              </div>
-              <div class="row py-3">
-                <label for="date" class="col-sm-4 col-form-label">Date: </label>
-                <div class="col-sm-8">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="datepicker"
-                    autocomplete="off"
-                  />
-                </div>
-              </div>
-              <div class="py-3">
-                <button type="submit" value="Submit" class="btn btn-info">
-                  Submit
-                </button>
-              </div>
-            </form> -->
-          </div>
-          <div class="col-6 container">
-            <h3>List of Skills:</h3>
-            <ul class="list-group" id="skills-list"></ul>
-            <div class="input-group mb-3">
-              <span class="input-group-text" id="username"></span>
-              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-            </div>
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Title" aria-label="Title" aria-describedby="basic-addon2">
-              <span class="input-group-text" id="title"></span>
-            </div>
-            <div class="content">
-              <span class="Content"></span>
-              <textarea class="form-control" id="content" placeholder="Content" aria-label="Content"></textarea>
-            </div>
-            <div class="py-3">
-                <button type="submit" value="Submit" class="btn btn-info">
-                  Submit
-                </button>
-            </div>
-          </div>
-        </div>
-        <script src="./Assets/JS/form.js"></script>
-    
 </body>
