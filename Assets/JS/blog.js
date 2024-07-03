@@ -1,19 +1,31 @@
-const themeSwitcher = document.querySelector('#switcher');
-const container = document.querySelector('.container');
+var blog = JSON.parse(localStorage.getItem('blog'));
+var blogNum = JSON.parse(localStorage.getItem('blog#'));
+var blog1 = document.getElementById("table");
 
-// Set default mode to dark
-let mode = 'dark';
-
-// Listen for a click event on toggle switch
-themeSwitcher.addEventListener('click', function () {
-  // If mode is dark, apply light background
-  if (mode === 'dark') {
-    mode = 'light';
-    container.setAttribute('class', 'light');
+if (blogNum += 0) {
+  for (let i = 0; i = blogNum; i++) {
+    blog.forEach(item => {
+      const newTitle = document.createElement('h3');
+      const newName = document.createElement('h2');
+      const newContent = document.createElement('p');
+      newTitle.textContent = item;
+      newName.textContent = item;
+      newContent.textContent = item;
+      blog1.appendChild(newTitle);
+      blog1.appendChild(newName);
+      blog1.appendChild(newContent);
+    })
   }
-  // If mode is light, apply dark background
-  else {
-    mode = 'dark';
-    container.setAttribute('class', 'dark');
-  }
-});
+} else {
+  blog.forEach(item => {
+    const newTitle = document.createElement('h3');
+    const newName = document.createElement('h2');
+    const newContent = document.createElement('p');
+    newTitle.textContent = item;
+    newName.textContent = item;
+    newContent.textContent = item;
+    blog1.appendChild(newTitle);
+    blog1.appendChild(newName);
+    blog1.appendChild(newContent);
+  })
+} 

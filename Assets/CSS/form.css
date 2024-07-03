@@ -13,19 +13,23 @@
     margin-top: 5%;
     display: flex;
     justify-content: center;
-    border-style: dashed;
+    border-style:groove;
+    border-width: 20px;
+    border-radius: 20px;
+    border-color: aqua;
+    
   }
   
   #ld {
     margin-left: 90%;
-    background-color: black;
-    color: white;
+    background-color: aqua;
+    color: green;
   }
   
   .input {
     display: flex;
     justify-content: center;
-    border-color: black;
+    border-color: aqua;
     border-style: double;
     margin-left: 700px;
     margin-right: 650px;
@@ -38,4 +42,25 @@
   
   #github {
     margin-left: 90%;
+  }
+
+  #submit {
+    background-color: aqua;
+    color: green;
+  }
+
+  #name {
+    background-color: aqua;
+  }
+
+  #title {
+    background-color: aqua;
+  }
+
+  #content {
+    background-color: aqua;
+  }
+
+  ::placeholder {
+    color: green;
   }
