@@ -1,17 +1,44 @@
 .dark {
   background-color: black;
   color: white;
-#ld {
+
+  #ld {
     background-color: white;
     color: black;
   }
-#return {
+
+  #return {
     background-color: white;
-    color: black;  
+    color: black;
   }
-}
 
+  #submit {
+    background-color: white;
+    color: black;
+  }
 
+  #name {
+    background-color: white;
+  }
 
+  #title {
+    background-color: white;
+  }
 
+  #content {
+    background-color: white;
+  }
+
+  ::placeholder {
+    color: black;
+  }
   
+  h1 {
+    border-color: white
+  }
+
+  .input {
+    border-color: white;
+  }
+
+}
